@@ -5,6 +5,7 @@ import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import profile from "../../public/images/profile/developer-pic-2.jpg"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Sckil from '@/components/Sckil'
 
 
 const AnimitedNumber = ({value})=>{
@@ -84,6 +85,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Sckil/>
         </Layout>
       </main>
     </>
