@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from 'react'
 import profile from "../../public/images/profile/developer-pic-2.jpg"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Sckil from '@/components/Sckil'
+import Expreneces from '@/components/Expreneces'
+import Education from '@/components/Education'
 
 
 const AnimitedNumber = ({value})=>{
@@ -86,6 +88,8 @@ const About = () => {
                 </div>
             </div>
             <Sckil/>
+            <Expreneces/>
+            <Education/>
         </Layout>
       </main>
     </>

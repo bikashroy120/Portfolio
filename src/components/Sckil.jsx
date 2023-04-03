@@ -14,7 +14,7 @@ const Skill = ({name,x,y})=>{
 const Sckil = () => {
   return (
     <>
-        <h2 className='text-7xl font-bold mt-48 w-full text-center'>Skills</h2>
+        <h2 className='text-7xl font-bold mt-48 w-full text-center mb-8'>Skills</h2>
         <div className=' w-full h-screen relative flex items-center justify-center  rounded-full bg-circulorLight'>
             <motion.div className='p-8 bg-dark rounded-full text-light text-2xl font-medium shadow-dark cursor-pointer' whileTap={{scale:1.05}}>
                 web
