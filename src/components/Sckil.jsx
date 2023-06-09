@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const Skill = ({name,x,y})=>{
     return(
-        <motion.div className='py-3 px-6 bg-dark rounded-full text-light text-2xl font-medium shadow-dark cursor-pointer absolute' whileTap={{scale:1.05}} initial={{x:0,y:0}} whileInView={{x:x,y:y}} transition={{duration:1.5}} viewport={{once:true}}>
+        <motion.div className='py-3 px-6 bg-dark rounded-full text-light text-2xl font-medium shadow-dark dark:bg-light dark:text-dark cursor-pointer absolute' whileTap={{scale:1.05}} initial={{x:0,y:0}} whileInView={{x:x,y:y}} transition={{duration:1.5}} viewport={{once:true}}>
         {name}
         </motion.div>
     )
@@ -14,8 +14,8 @@ const Skill = ({name,x,y})=>{
 const Sckil = () => {
   return (
     <>
-        <h2 className='text-7xl font-bold mt-48 w-full text-center mb-8'>Skills</h2>
-        <div className=' w-full h-screen relative flex items-center justify-center  rounded-full bg-circulorLight'>
+        <h2 className='text-7xl font-bold mt-48 dark:text-light w-full text-center mb-8'>Skills</h2>
+        <div className=' w-full h-screen relative flex items-center justify-center  rounded-full bg-circulorLight dark:bg-circulorDark'>
             <motion.div className='p-8 bg-dark rounded-full text-light text-2xl font-medium shadow-dark cursor-pointer' whileTap={{scale:1.05}}>
                 web
             </motion.div>

@@ -5,9 +5,9 @@ import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } fr
 
 const Footer = () => {
   return (
-    <div className=' border-t-4 border-dark py-8'>
+    <div className=' border-t-4 border-dark dark:border-light py-8'>
         <Layout className='!py-0'>
-            <div className='flex items-center justify-between w-full h-auto'>
+            <div className='flex items-center justify-between w-full h-auto dark:text-light'>
                 <h2 className=' text-xl'>{new Date().getFullYear()} &copy; All Right Reserved</h2>
                 <nav className='flex items-center'>
                 <motion.a href="/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3'><TwitterIcon/></motion.a>
