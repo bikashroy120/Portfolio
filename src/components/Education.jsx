@@ -35,15 +35,15 @@ const Education = () => {
     );
   return (
     <div className='pb-64'>
-        <h2 className='text-8xl font-bold mt-48 mb-24 w-full text-center'>EXPERIENCE</h2>
+        <h2 className='text-8xl font-bold mt-48 mb-24 w-full text-center dark:text-light'>EXPERIENCE</h2>
 
         <div ref={ref} className='w-[75%] mx-auto relative'>
 
                 <motion.div
                 style={{scaleY:scrollYProgress}}
-                className=' absolute top-0 left-9 bg-dark w-[4px] h-full origin-top'/>
+                className=' absolute top-0 left-9 bg-dark w-[4px] h-full origin-top dark:bg-light'/>
 
-                <ul className='w-full flex items-center justify-between ml-4 flex-col'>
+                <ul className='w-full flex items-center justify-between ml-4 flex-col dark:text-light'>
                     <Deteles
                         type="Bachelor Of Science In Computer Science"
                         time="2016-2020"

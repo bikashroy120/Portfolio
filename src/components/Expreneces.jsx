@@ -15,7 +15,7 @@ const Deteles = ({position,company,time,address,work})=>{
                 transition={{duration:0.5,type:"spring"}}
             >
                 <h3 className=' font-bold capitalize text-2xl'>{position} <a href={"https://www.techdsf.com/"} target="_blank" rel="noopener noreferrer">@{company}</a></h3>
-                <span className=' font-medium capitalize text-dark/75'>
+                <span className=' font-medium capitalize text-dark/75 dark:text-light/75'>
                     {address} | {time}
                 </span>
                 <p className=' font-medium capitalize w-full'>{work}</p>
@@ -35,13 +35,13 @@ const Expreneces = () => {
     );
   return (
     <>
-        <h2 className='text-8xl font-bold mt-48 mb-24 w-full text-center'>EXPERIENCE</h2>
+        <h2 className='text-8xl font-bold mt-48 mb-24 w-full text-center dark:text-light'>EXPERIENCE</h2>
 
-        <div ref={ref} className='w-[75%] mx-auto relative'>
+        <div ref={ref} className='w-[75%] mx-auto relative dark:text-light'>
 
                 <motion.div
                 style={{scaleY:scrollYProgress}}
-                className=' absolute top-0 left-9 bg-dark w-[4px] h-full origin-top'/>
+                className=' absolute top-0 left-9 bg-dark w-[4px] h-full origin-top dark:bg-light'/>
 
                 <ul className='w-full flex items-center justify-between ml-4 flex-col'>
                     <Deteles position="Software Engineer"

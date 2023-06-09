@@ -10,9 +10,9 @@ import img from "../../public/images/projects/crypto-screener-cover-image.jpg"
 
 const FeaturedProjects = ({type,title,summary,img,link,github})=>{
     return(
-        <article className='w-full flex items-center justify-between p-12 rounded-3xl border border-solid border-dark bg-light shadow-2xl relative'>
+        <article className='w-full flex items-center justify-between p-12 rounded-3xl border border-solid border-dark bg-light dark:border-light dark:bg-dark shadow-2xl relative'>
 
-            <div className=' absolute top-0 -right-3 w-[101%] h-[102%] rounded-[2rem] bg-dark -z-10'/>
+            <div className=' absolute top-0 -right-3 w-[101%] h-[102%] rounded-[2rem] bg-dark dark:bg-light -z-10'/>
             
             <Link href={link} target='_blank'
             className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
@@ -20,14 +20,14 @@ const FeaturedProjects = ({type,title,summary,img,link,github})=>{
                 <Image src={img} className='w-full h-auto' alt='Project ing' />
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-16'>
-                <span className=' text-primary font-medium text-xl'>{type}</span>
+                <span className=' text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target='_blank' className=' hover:underline underline-offset-2'>
-                    <h2 className='my-2 w-full text-4xl font-bold'>{title}</h2>
+                    <h2 className='my-2 w-full text-4xl font-bold dark:text-light'>{title}</h2>
                 </Link>
-                <p className='my-2 font-medium text-dark'>{summary}</p>
+                <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center'>
-                    <Link href={github} target='_blank' className='w-10'> <GithubIcon /> </Link>
-                    <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'> Visit Project</Link>
+                    <Link href={github} target='_blank' className='w-10 dark:text-light'> <GithubIcon /> </Link>
+                    <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark'> Visit Project</Link>
                 </div>
             </div>
         </article>
@@ -37,22 +37,22 @@ const FeaturedProjects = ({type,title,summary,img,link,github})=>{
 
 const ProjectsData = ({type,title,summary,img,link,github})=>{
     return(
-        <article className='w-full flex flex-col items-center p-8 justify-between rounded-3xl border relative border-solid border-dark bg-light shadow-2xl'>
-            <div className=' absolute top-0 -right-3 w-[102%] h-[103%] rounded-[2rem] bg-dark -z-10'/>
+        <article className='w-full flex flex-col items-center p-8 justify-between rounded-3xl border relative border-solid border-dark bg-light dark:border-light dark:bg-dark shadow-2xl'>
+            <div className=' absolute top-0 -right-3 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light -z-10'/>
             <Link href={link} target='_blank'
             className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
                 <Image src={img} className='w-full h-auto' alt='Project ing' />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-3'>
-                <span className=' text-primary font-medium text-xl'>{type}</span>
+                <span className=' text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target='_blank' className=' hover:underline underline-offset-2'>
-                    <h2 className='my-2 w-full text-4xl font-bold'>{title}</h2>
+                    <h2 className='my-2 w-full text-4xl font-bold dark:text-light'>{title}</h2>
                 </Link>
-                <p className='my-2 font-medium text-dark'>{summary}</p>
+                <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center justify-between w-full'>
-                    <Link href={github} target='_blank' className='w-10'> <GithubIcon /> </Link>
-                    <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'> Visit</Link>
+                    <Link href={github} target='_blank' className='w-10 dark:text-light'> <GithubIcon /> </Link>
+                    <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark'> Visit Project</Link>
                 </div>
             </div>
         </article>
