@@ -7,14 +7,14 @@ import LiIcon from './LiIcon'
 const Deteles = ({position,company,time,address,work})=>{
     const ref = useRef(null)
     return(
-        <li ref={ref} className='py-8 first:pt-0 last:pb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        <li ref={ref} className='py-8 first:pt-0 last:pb-0 md:w-[60%] w-[90%] mx-auto flex flex-col items-center justify-between'>
             <LiIcon reparens={ref}/>
             <motion.div 
                 initial={{y:70}}
                 whileInView={{y:0}}
                 transition={{duration:0.5,type:"spring"}}
             >
-                <h3 className=' font-bold capitalize text-2xl'>{position} <a href={"https://www.techdsf.com/"} target="_blank" rel="noopener noreferrer">@{company}</a></h3>
+                <h3 className=' font-bold capitalize text-xl md:text-2xl'>{position} <a href={"https://www.techdsf.com/"} target="_blank" rel="noopener noreferrer">@{company}</a></h3>
                 <span className=' font-medium capitalize text-dark/75 dark:text-light/75'>
                     {address} | {time}
                 </span>
@@ -35,13 +35,13 @@ const Expreneces = () => {
     );
   return (
     <>
-        <h2 className='text-8xl font-bold mt-48 mb-24 w-full text-center dark:text-light'>EXPERIENCE</h2>
+        <h2 className='lg:text-8xl md:text-4xl text-3xl font-bold lg:mt-48 md:mt-32 mt-10 w-full text-center mb-8 dark:text-light'>EXPERIENCE</h2>
 
-        <div ref={ref} className='w-[75%] mx-auto relative dark:text-light'>
+        <div ref={ref} className='md:w-[75%] w-[90%] mx-auto relative dark:text-light'>
 
                 <motion.div
                 style={{scaleY:scrollYProgress}}
-                className=' absolute top-0 left-9 bg-dark w-[4px] h-full origin-top dark:bg-light'/>
+                className=' absolute top-0 md:left-9 -left-1 bg-dark w-[4px] h-full origin-top dark:bg-light'/>
 
                 <ul className='w-full flex items-center justify-between ml-4 flex-col'>
                     <Deteles position="Software Engineer"

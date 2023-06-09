@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 const Skill = ({name,x,y})=>{
     return(
-        <motion.div className='py-3 px-6 bg-dark rounded-full text-light text-2xl font-medium shadow-dark dark:bg-light dark:text-dark cursor-pointer absolute' whileTap={{scale:1.05}} initial={{x:0,y:0}} whileInView={{x:x,y:y}} transition={{duration:1.5}} viewport={{once:true}}>
+        <motion.div className='py-3 px-6 md:bg-dark rounded-full md:text-light lg:text-2xl md:text-xl text-base font-medium shadow-dark md:dark:bg-light text-dark dark:text-light md:dark:text-dark cursor-pointer absolute' whileTap={{scale:1.05}} initial={{x:0,y:0}} whileInView={{x:x,y:y}} transition={{duration:1.5}} viewport={{once:true}}>
         {name}
         </motion.div>
     )
@@ -13,10 +13,10 @@ const Skill = ({name,x,y})=>{
 
 const Sckil = () => {
   return (
-    <>
-        <h2 className='text-7xl font-bold mt-48 dark:text-light w-full text-center mb-8'>Skills</h2>
-        <div className=' w-full h-screen relative flex items-center justify-center  rounded-full bg-circulorLight dark:bg-circulorDark'>
-            <motion.div className='p-8 bg-dark rounded-full text-light text-2xl font-medium shadow-dark cursor-pointer' whileTap={{scale:1.05}}>
+    <div className=' hidden sm:block'>
+        <h2 className='lg:text-7xl md:text-4xl text-3xl font-bold lg:mt-48 md:mt-32 mt-10 dark:text-light w-full text-center md:mb-8'>Skills</h2>
+        <div className=' w-full lg:h-screen md:h-[70vh] h-[50vh] relative flex items-center justify-center  rounded-full bg-circulorLight dark:bg-circulorDark'>
+            <motion.div className='p-8 md:bg-dark rounded-full md:text-light text-dark lg:text-2xl md:text-xl text-base font-medium shadow-dark cursor-pointer' whileTap={{scale:1.05}}>
                 web
             </motion.div>
             <Skill name={"HTML"} x="-25vw" y={"2vw"}/>
@@ -30,7 +30,7 @@ const Sckil = () => {
             <Skill name={"Firebase"} x="-25vw" y={"18vw"}/>
             <Skill name={"Tailwind CSS"} x="18vw" y={"18vw"}/>
         </div>
-    </>
+    </div>
   )
 }
 

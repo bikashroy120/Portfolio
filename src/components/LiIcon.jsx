@@ -8,7 +8,7 @@ const LiIcon = ({reparens}) => {
             offset:["center end","center center"]
         })
   return (
-    <figure className=' absolute left-0 stroke-dark dark:stroke-light'>
+    <figure className=' absolute -left-10 md:left-0 stroke-dark dark:stroke-light'>
         <svg className=' -rotate-90' width={"75"} height={"75"} viewBox='0 0 100 100'>
             <circle cx={"75"} cy={"50"} r={"20"} className='stroke-primary stroke-1 fill-none dark:stroke-primaryDark'/>
             <motion.circle
