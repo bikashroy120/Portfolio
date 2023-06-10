@@ -21,6 +21,13 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96",
         primaryDark: "#58E6D9", 
+        bodyColor: "#212428",
+        lightText: "#c4cfde",
+        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
+        designColor: "#ff014f",
+      },
+      boxShadow: {
+        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },
       animation: {
         'spin-slow': 'spin 3s linear infinite',

@@ -53,7 +53,7 @@ const Navber = () => {
     }
 
   return (
-    <header className='w-full px-4 md:px-16 lg:px-32 lg:py-8 p-0 font-medium flex  dark:text-light items-center justify-between relative'>
+    <header className='w-full px-4 md:px-16 lg:px-32 z-50 lg:py-8 p-0 font-medium flex  dark:text-light items-center justify-between relative'>
 
         <button onClick={handelOpen} className='flex items-center justify-center flex-col lg:hidden'>
             <span className={`bg-dark dark:bg-light transition-all duration-300 block h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"}`}></span>
@@ -66,7 +66,7 @@ const Navber = () => {
             <CoustomLink href={"/"} title={"Home"} className='mr-4'/>
             <CoustomLink href={"/about"} title={"About"} className='mx-4'/>
             <CoustomLink href={"/projects"} title={"Projects"} className='mx-4'/>
-            <CoustomLink href={"/articles"} title={"Articles"} className='mx-4'/>
+            <CoustomLink href={"/contact"} title={"Contact Me"} className='mx-4'/>
         </nav>
         <nav className='flex items-center'>
             <motion.a href="/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3'><TwitterIcon/></motion.a>

@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .bannerIcon{
+        @apply w-16 h-16 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+    }
+    .resumeLi {
+    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
+         }
+.bgOpacity {
+@apply bg-black bg-opacity-40;
+                  }
+    .contactInput{
+        @apply w-full h-12 rounded-lg border-b-[1px] dark:border-b-gray-600 bg-light dark:bg-[#191b1e] text-dark dark:text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
+    }
+.contactTextArea{
+    @apply w-full rounded-lg border-b-[1px] dark:border-b-gray-600 bg-light dark:bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none
+}
+}
+
+.active {
+    color: white;
+}
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+
+
+.bacjground_image{
+    background: url("../../public/images/profile/last.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255,255,255/ 30%);
+    justify-self: center;
+    animation: profile__animate 8s ease-in-out infinite 1s;
+    width: 450px;
+    height: 600px;
+}
+
+
+@keyframes profile__animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+@media screen and (max-width: 1186px) {
+    .bacjground_image{
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .bacjground_image{
+        width: 300px;
+        height: 350px;
+    }
+}
