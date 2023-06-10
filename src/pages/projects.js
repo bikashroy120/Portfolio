@@ -5,7 +5,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import img from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import img1 from "../../public/images/projects/1.png"
+import img2 from "../../public/images/projects/2.png"
+import img3 from "../../public/images/projects/3.png"
+import img4 from "../../public/images/projects/4.png"
+import img5 from "../../public/images/projects/5.png"
+import img6 from "../../public/images/projects/6.png"
 import TransjationEffact from '@/components/TransjationEffact'
 
 
@@ -43,7 +48,7 @@ const ProjectsData = ({type,title,summary,img,link,github})=>{
             <Link href={link} target='_blank'
             className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <Image src={img} className='w-full h-auto' alt='Project ing' />
+                <Image src={img} className='w-full h-[300px]' alt='Project ing' />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-3'>
                 <span className=' text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
@@ -52,7 +57,7 @@ const ProjectsData = ({type,title,summary,img,link,github})=>{
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center justify-between w-full'>
-                    <Link href={github} target='_blank' className='w-10 dark:text-light'> <GithubIcon /> </Link>
+                    <Link href={github} className='w-10 dark:text-light'> <GithubIcon /> </Link>
                     <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark'> Visit Project</Link>
                 </div>
             </div>
@@ -76,40 +81,57 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-24 gap-10 mb-14'>
                     <ProjectsData
                             type={"Featured Project"}
-                            title={"Crypto Screener Application"}
-                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
-                            img={img}
-                            link={"/"}
-                            github={"/"}
+                            title={"pdf Download Application"}
+                            summary={"A feature-rich Crypto Screener App using html, Tailwind CSS, javascript and owl carosel. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img1}
+                            link={"https://pdf-download.vercel.app"}
+                            github={"#"}
                         />
            
           
                          <ProjectsData
                             type={"Featured Project"}
-                            title={"Crypto Screener Application"}
-                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
-                            img={img}
-                            link={"/"}
-                            github={"/"}
+                            title={"ciberconta Application"}
+                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Redux, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img2}
+                            link={"https://ciberconta.vercel.app/"}
+                            github={"#"}
                         />
 
                             <ProjectsData
                             type={"Featured Project"}
-                            title={"Crypto Screener Application"}
-                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
-                            img={img}
-                            link={"/"}
-                            github={"/"}
+                            title={"travel agency Application"}
+                            summary={"A travel-agency Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img3}
+                            link={"https://travel-agency-web-app-react.vercel.app/"}
+                            github={"#"}
                         />
 
                         <ProjectsData
                             type={"Featured Project"}
-                            title={"Crypto Screener Application"}
-                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
-                            img={img}
-                            link={"/"}
-                            github={"/"}
-                        />                          
+                            title={"maltimart-ecommerce Application"}
+                            summary={"A maltimart-ecommerce Screener App using React, CSS, Redux, React Router. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img4}
+                            link={"https://maltimart-ecommerce-ochre.vercel.app/"}
+                            github={"#"}
+                        />  
+
+                        <ProjectsData
+                            type={"Featured Project"}
+                            title={"food Delevary ecommerce Application"}
+                            summary={"A food Delevary ecommerce App using React,Tailwind CSS, Redux, React Router firbase full stark project. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img5}
+                            link={"https://food-app-firebase.vercel.app"}
+                            github={"#"}
+                        />   
+                        <ProjectsData
+                            type={"Featured Project"}
+                            title={"youtub-clone Application"}
+                            summary={"A youtub-clone App using React, CSS, Redux, React Router Rapid Api full stark project. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img6}
+                            link={"https://youtub-clone-sand.vercel.app/"}
+                            github={"#"}
+                        />                       
             
             </div>
 

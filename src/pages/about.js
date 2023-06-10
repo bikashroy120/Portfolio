@@ -100,7 +100,7 @@ const About = () => {
                 <div className=' sm:order-0 lg:col-span-3  sm:col-span-4 flex flex-col items-start justify-start'>
                     <h2 className='text-lg font-bold mb-4 uppercase text-dark/75 dark:text-light'>Biography</h2>
                     <p className=' font-medium w-full'>
-                    - Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
+                    - Hi, I'm Bikash Chandra, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                     and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
                     new and innovative ways to bring my clients' visions to life.
                     </p>

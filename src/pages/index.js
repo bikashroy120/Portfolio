@@ -1,12 +1,9 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
-import profilePic from "../../public/images/profile/bikash.png"
 import Image from 'next/image'
-import AnimatedText from '@/components/AnimatedText'
-import Link from 'next/link'
 import HireMe from '@/components/HireMe'
 import Light from "../../public/images/svgs/miscellaneous_icons_1.svg"
-import { LinkArrow } from '@/components/Icons'
+
 import TransjationEffact from '@/components/TransjationEffact'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from '@/components/Media'
