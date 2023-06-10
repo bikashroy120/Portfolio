@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import  contactImg  from "../../public/images/profile/contactImg.png";
+import Image from 'next/image';
 
 const ContactLeft = () => {
   return (
     <div className="w-full lg:w-[35%] h-full bg-white/75 dark:bg-black shadow-md  p-4 lg:p-8 rounded-lg flex flex-col gap-8 justify-center">
-      <img
+      <Image
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
         alt="contactImg"

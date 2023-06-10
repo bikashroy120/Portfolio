@@ -4,19 +4,19 @@ import LiIcon from './LiIcon'
 
 const ResumeCard = ({title,subTitle,result,des}) => {
     return (
-      <div className="w-full h-1/3 group flex">
+      <div className="w-full h-auto group flex">
         <div className="w-10 h-[6px] bgOpacity mt-16 relative">
-          <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center bg-black bg-opacity-60">
-            <span className="w-3 h-3 rounded-full bg-bodyColor inline-flex group-hover:bg-designColor duration-300"></span>
+          <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center bg-black dark:bg-white bg-opacity-60">
+            <span className="w-3 h-3 rounded-full bg-bodyColor dark:bg-gray-700 inline-flex group-hover:bg-designColor duration-300"></span>
           </span>
         </div>
-        <div className="w-full bg-gray-300 dark:bg-gray-700 shadow-lg duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10">
-          <div className="flex flex-col lg:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
+        <div className="w-full bg-gray-300 dark:bg-gray-700 shadow-lg duration-300 py-8  rounded-lg p-4 lg:px-10 flex flex-col justify-center gap-6 lg:gap-10">
+          <div className="flex flex-col lg:flex-row justify-between gap-4 lgl:gap-0 lg:items-center">
             <div>
               <h3 className="text-xl md:text-2xl font-semibold text-dark dark:text-light  duration-300">
                 {title}
               </h3>
-              <p className="text-sm mt-2 text-dark dark:text-light duration-300">
+              <p className="text-sm md:text-xl mt-2 text-dark dark:text-light duration-300">
                 {subTitle}
               </p>
             </div>
@@ -119,56 +119,54 @@ const Expreneces = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <h2 className="text-3xl md:text-4xl dark:text-light font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black  dark:border-l-gray-700 border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="SSC "
+            subTitle="Singerdabri Hat High School & College (2017)"
+            result="4.36/5"
+            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Diploma In Engineering"
+            subTitle="Thakurgong Polytechnic Institute (2017 - 2022)"
+            result="3.79/4"
+            des="Want to build your website or app using the most up-to-date web development capabilities ?"
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Secondary School Education"
             subTitle="Kingstar Secondary School (1998 - 2000)"
             result="5.00/5"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          /> */}
         </div>
       </div>
       {/* part Two */}
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl dark:text-light md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black dark:border-l-gray-700 border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
+            title="Web Develoment Course"
+            subTitle="Complex Academy - (2021 - 2022)"
             result="USA"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
+            title="Front-End Developer"
+            subTitle="Tech DSF - (2022 - Present)"
+            result="Thakurgaon"
             des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
     </motion.div> 

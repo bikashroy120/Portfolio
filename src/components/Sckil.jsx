@@ -13,8 +13,8 @@ const Skill = ({name,x,y})=>{
 
 const Sckil = () => {
   return (
-    <div className=' hidden sm:block'>
-        <h2 className='lg:text-7xl md:text-4xl text-3xl font-bold lg:mt-48 md:mt-32 mt-10 dark:text-light w-full text-center md:mb-8'>Skills</h2>
+    <div className=' hidden sm:block  mb-10'>
+        <h2 className='lg:text-7xl md:text-4xl text-3xl font-bold lg:mt-8 md:mt-32 mt-10 dark:text-light w-full text-center md:mb-8'>Skills</h2>
         <div className=' w-full lg:h-screen md:h-[70vh] h-[50vh] relative flex items-center justify-center  rounded-full bg-circulorLight dark:bg-circulorDark'>
             <motion.div className='p-8 md:bg-dark rounded-full md:text-light text-dark lg:text-2xl md:text-xl text-base font-medium shadow-dark cursor-pointer' whileTap={{scale:1.05}}>
                 web

@@ -48,7 +48,7 @@ const ProjectsData = ({type,title,summary,img,link,github})=>{
             <div className='w-full flex flex-col items-start justify-between mt-3'>
                 <span className=' text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target='_blank' className=' hover:underline underline-offset-2'>
-                    <h2 className='my-2 w-full text-4xl font-bold dark:text-light'>{title}</h2>
+                    <h2 className='my-2 w-full text-2xl md:text-4xl font-bold dark:text-light'>{title}</h2>
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center justify-between w-full'>
@@ -73,18 +73,7 @@ const Projects = () => {
         <Layout className='pt-16'>
             <AnimatedText text={"Imagination Trumps Knowledge "} className='mb-16'/>
             
-            <div className='grid grid-cols-12 gap-24'>
-                <div className=' col-span-12'>
-                    <FeaturedProjects
-                        type={"Featured Project"}
-                        title={"Crypto Screener Application"}
-                        summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
-                        img={img}
-                        link={"/"}
-                        github={"/"}
-                    />
-                </div>
-                <div className=' col-span-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-24 gap-10 mb-14'>
                     <ProjectsData
                             type={"Featured Project"}
                             title={"Crypto Screener Application"}
@@ -93,8 +82,8 @@ const Projects = () => {
                             link={"/"}
                             github={"/"}
                         />
-                </div>
-                <div className=' col-span-6'>
+           
+          
                          <ProjectsData
                             type={"Featured Project"}
                             title={"Crypto Screener Application"}
@@ -103,7 +92,25 @@ const Projects = () => {
                             link={"/"}
                             github={"/"}
                         />
-                </div>
+
+                            <ProjectsData
+                            type={"Featured Project"}
+                            title={"Crypto Screener Application"}
+                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img}
+                            link={"/"}
+                            github={"/"}
+                        />
+
+                        <ProjectsData
+                            type={"Featured Project"}
+                            title={"Crypto Screener Application"}
+                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."}
+                            img={img}
+                            link={"/"}
+                            github={"/"}
+                        />                          
+            
             </div>
 
 

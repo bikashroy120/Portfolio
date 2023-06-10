@@ -132,10 +132,11 @@ const About = () => {
                     </div>
                 </div>
             </div>
-             <Sckil/>
+             
             <Expreneces/>
             <Skills />
             {/* <Education/> */}
+            <Sckil/>
         </Layout>
       </main>
     </>
