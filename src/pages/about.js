@@ -53,9 +53,7 @@ const About = () => {
                 <div className='col-span-8 order-1 sm:order-0 lg:col-span-3  sm:col-span-4 flex flex-col items-start justify-start'>
                     <h2 className='text-lg font-bold mb-4 uppercase text-dark/75 dark:text-light'>Biography</h2>
                     <p className=' font-medium w-full'>
-                    - Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                    and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                    new and innovative ways to bring my clients' visions to life.
+                    Hi! I'm Dikash Chandra , a passionate MERN-stack developer. I develop websites using MERN technology. I literally spend 8-10 hours every day on Programming and Problem Solving. Programming is my love and passionate. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world.
                     </p>
                     
                     <p className=' font-medium py-4'>
@@ -77,15 +75,15 @@ const About = () => {
 
                 <div className='col-span-8 w-full lg:col-span-2 flex lg:flex-col justify-between items-end order-3'>
                     <div className='flex flex-col items-end justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={50}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Satisfied Client</h2>
                     </div>
                     <div className='flex flex-col items-end justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={40}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Projects Completed</h2>
                     </div>
                     <div className='flex flex-col items-end justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={5}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={2}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Yeras Of Experience</h2>
                     </div>
                 </div>
@@ -100,9 +98,7 @@ const About = () => {
                 <div className=' sm:order-0 lg:col-span-3  sm:col-span-4 flex flex-col items-start justify-start'>
                     <h2 className='text-lg font-bold mb-4 uppercase text-dark/75 dark:text-light'>Biography</h2>
                     <p className=' font-medium w-full'>
-                    - Hi, I'm Bikash Chandra, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                    and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                    new and innovative ways to bring my clients' visions to life.
+                    Hi! I'm Dikash Chandra , a passionate MERN-stack developer. I develop websites using MERN technology. I literally spend 8-10 hours every day on Programming and Problem Solving. Programming is my love and passionate. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world.
                     </p>
                     
                     <p className=' font-medium py-4'>
@@ -119,15 +115,15 @@ const About = () => {
 
                 <div className='col-span-8 w-full lg:col-span-2 flex lg:flex-col justify-between items-end order-3'>
                     <div className='flex flex-col items-center justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={50}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Satisfied Client</h2>
                     </div>
                     <div className='flex flex-col items-center  justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={40}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Projects Completed</h2>
                     </div>
                     <div className='flex flex-col items-center  justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={5}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={2}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Yeras Of Experience</h2>
                     </div>
                 </div>

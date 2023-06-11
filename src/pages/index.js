@@ -7,6 +7,7 @@ import Light from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransjationEffact from '@/components/TransjationEffact'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from '@/components/Media'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
             <div className='w-full md:w-1/2 bacjground_image'>
 
             </div>
-            <div className="w-full md:w-1/2 flex flex-col gap-20">
+            <div className="w-full md:w-1/2 flex flex-col gap-10">
               <div className="flex flex-col gap-5">
                 <h4 className=" text-lg font-medium">WELCOME TO MY WORLD</h4>
                 <h1 className="text-3xl md:text-6xl font-bold text-dark dark:text-light">
@@ -45,11 +46,18 @@ export default function Home() {
                   />
                 </h2>
                 <p className="text-base leading-6 tracking-wide">
-                  I use animation as a third dimension by which to simplify experiences
-                  and kuiding thro each and every interaction. I'm not adding motion
-                  just to spruce things up, but doing it in ways that.
+                I’m Bikash Chandra, A MERN Stack Web Developer who has had the privilege of working with many startups, small and large, as well as individuals and entrepreneurs. A designer who specialises in web based projects and online marketing, helping to build businesses.
                 </p>
+                <div className='mt-2 flex items-center gap-2'>
+              <Link href="/CV.pdf" className=' font-semibold  uppercase bg-dark/75 text-light border border-dark/75 hover:bg-transparent hover:text-dark duration-300 transition-all dark:bg-light dark:border-light dark:hover:bg-transparent dark:text-dark dark:hover:text-light  py-3 px-5 text-[20px] rounded-md' target='_blank' download>
+                  Download CV
+              </Link>
+              <Link href={"/contact"} className=' font-bold uppercase text-[20px] underline'>
+                  Contact Me
+              </Link>
               </div>
+              </div>
+
      {/* Media */}
      <Media />
     </div>

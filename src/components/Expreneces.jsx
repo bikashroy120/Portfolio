@@ -126,13 +126,14 @@ const Expreneces = () => {
             title="SSC "
             subTitle="Singerdabri Hat High School & College (2017)"
             result="4.36/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="
+            I passed SSC from SINGARDABHIAT HIGH SCHOOL & COLLEGE in 2017 from science department, my result is 4.36 out of 5."
           />
           <ResumeCard
             title="Diploma In Engineering"
             subTitle="Thakurgong Polytechnic Institute (2017 - 2022)"
             result="3.79/4"
-            des="Want to build your website or app using the most up-to-date web development capabilities ?"
+            des=" I completed Diploma in Computer Technology in 2022 from Thakurgaon Polytechnic Institute, my result is 3.79 out of 4"
           />
           {/* <ResumeCard
             title="Secondary School Education"
@@ -152,14 +153,14 @@ const Expreneces = () => {
           <ResumeCard
             title="Web Develoment Course"
             subTitle="Complex Academy - (2021 - 2022)"
-            result="USA"
+            result="Thakurgaon"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
             title="Front-End Developer"
             subTitle="Tech DSF - (2022 - Present)"
             result="Thakurgaon"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des=" I am currently working as a Frontend developer in tech DSF software company, where I successfully completed 9 projects."
           />
           {/* <ResumeCard
             title="Front-end Developer"
