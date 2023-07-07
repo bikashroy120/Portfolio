@@ -48,7 +48,7 @@ const About = () => {
       <TransjationEffact/>
       <main className='flex flex-col w-full items-center justify-center'>
         <Layout className='pt-5 md:pt-16'> 
-            <AnimatedText text={"Passion Fuels Purpose! "} className='mb-8 md:mb-16 !text-3xl sm:!text-4xl lg:!text-6xl'/>
+            <AnimatedText text={"About Me "} className='mb-8 md:mb-16 !text-3xl sm:!text-4xl lg:!text-6xl'/>
             <div className=' hidden sm:grid w-full grid-cols-8 gap-16 dark:text-light'>
                 <div className='col-span-8 order-1 sm:order-0 lg:col-span-3  sm:col-span-4 flex flex-col items-start justify-start'>
                     <h2 className='text-lg font-bold mb-4 uppercase text-dark/75 dark:text-light'>Biography</h2>

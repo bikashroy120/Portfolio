@@ -11,6 +11,8 @@ import img3 from "../../public/images/projects/3.png"
 import img4 from "../../public/images/projects/4.png"
 import img5 from "../../public/images/projects/5.png"
 import img6 from "../../public/images/projects/6.png"
+import img7 from "../../public/images/projects/7.png"
+import img8 from "../../public/images/projects/8.png"
 import TransjationEffact from '@/components/TransjationEffact'
 
 
@@ -76,9 +78,25 @@ const Projects = () => {
       <TransjationEffact />
         <main className='flex flex-col w-full items-center justify-center'>
         <Layout className='pt-16'>
-            <AnimatedText text={"Imagination Trumps Knowledge "} className='mb-16'/>
+            <AnimatedText text={"My Project "} className='mb-16'/>
             
             <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-24 gap-10 mb-14'>
+                        <ProjectsData
+                            type={"Featured Project"}
+                            title={"MERN Stack react ecommerce website"}
+                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Redux, React Router and Recharts,axios. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency"}
+                            img={img8}
+                            link={"https://ecommerce-website-beryl.vercel.app/"}
+                            github={"#"}
+                        />
+                        <ProjectsData
+                            type={"Featured Project"}
+                            title={"MERN Stack react ecommerce admin"}
+                            summary={"A feature-rich Crypto Screener App using React, Tailwind CSS, Redux, axios,react Query, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency"}
+                            img={img7}
+                            link={"https://shop-admin-puce.vercel.app/"}
+                            github={"#"}
+                        />
                     <ProjectsData
                             type={"Featured Project"}
                             title={"pdf Download Application"}

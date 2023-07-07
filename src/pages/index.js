@@ -49,7 +49,7 @@ export default function Home() {
                 I’m Bikash Chandra, A MERN Stack Web Developer who has had the privilege of working with many startups, small and large, as well as individuals and entrepreneurs. A designer who specialises in web based projects and online marketing, helping to build businesses.
                 </p>
                 <div className='mt-2 flex items-center gap-2'>
-              <Link href="/CV.pdf" className=' font-semibold  uppercase bg-dark/75 text-light border border-dark/75 hover:bg-transparent hover:text-dark duration-300 transition-all dark:bg-light dark:border-light dark:hover:bg-transparent dark:text-dark dark:hover:text-light  py-3 px-5 text-[20px] rounded-md' target='_blank' download>
+              <Link href="/bikash.pdf" className=' font-semibold  uppercase bg-dark/75 text-light border border-dark/75 hover:bg-transparent hover:text-dark duration-300 transition-all dark:bg-light dark:border-light dark:hover:bg-transparent dark:text-dark dark:hover:text-light  py-3 px-5 text-[20px] rounded-md' target='_blank' download>
                   Download CV
               </Link>
               <Link href={"/contact"} className=' font-bold uppercase text-[20px] underline'>
