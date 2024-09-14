@@ -53,7 +53,7 @@ const Navber = () => {
     }
 
   return (
-    <header className='w-full max-w-[1200px] mx-auto z-50 lg:py-8 p-0 font-medium flex  dark:text-light items-center justify-between relative'>
+    <header className='w-full max-w-[1200px] px-5 mx-auto z-50 lg:py-8 p-0 font-medium flex  dark:text-light items-center justify-between relative'>
 
         <button onClick={handelOpen} className='flex items-center justify-center flex-col lg:hidden'>
             <span className={`bg-dark dark:bg-light transition-all duration-300 block h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"}`}></span>

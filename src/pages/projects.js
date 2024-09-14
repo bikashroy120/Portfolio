@@ -5,14 +5,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import img1 from "../../public/images/projects/1.png";
 import img2 from "../../public/images/projects/2.png";
-import img3 from "../../public/images/projects/3.png";
 import img4 from "../../public/images/projects/4.png";
-import img5 from "../../public/images/projects/5.png";
 import img6 from "../../public/images/projects/6.png";
-import img7 from "../../public/images/projects/7.png";
-import img8 from "../../public/images/projects/8.png";
+import project1 from "../../public/images/projects/project1.png"
+import project2 from "../../public/images/projects/project2.png"
+import project3 from "../../public/images/projects/project3.png"
 import TransjationEffact from "@/components/TransjationEffact";
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
@@ -80,7 +78,7 @@ const ProjectsData = ({ type, title, summary, img, link, github }) => {
           target="_blank"
           className=" hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-2xl md:text-4xl font-bold dark:text-light">
+          <h2 className="my-2 w-full text-xl md:text-3xl font-bold dark:text-light">
             {title}
           </h2>
         </Link>
@@ -123,28 +121,28 @@ const Projects = () => {
               summary={
                 "This is a full e-commerce website, and the main features of an e-commerce website are provided. It is developed using React.js, Next.js, React Query, Express.js, and MongoDB."
               }
-              img={img8}
-              link={"https://ecommerce-website-beryl.vercel.app/"}
+              img={project1}
+              link={"https://ecommerce-client-zeta-puce.vercel.app"}
               github={"#"}
             />
             <ProjectsData
               type={"Featured Project"}
-              title={"MERN Stack react ecommerce admin"}
+              title={"MERN Stack Doctor Booking Website"}
               summary={
-                "A feature-rich Crypto Screener App using React, Tailwind CSS, Redux, axios,react Query, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency"
+                "Through this website, users will be able to book appointments with various doctors and receive treatment at the scheduled time. It is developed using React.js, Next.js, React Redux,rtk query Express.js, and MongoDB."
               }
-              img={img7}
-              link={"https://shop-admin-puce.vercel.app/"}
+              img={project2}
+              link={"https://doctor-booking-alpha.vercel.app"}
               github={"#"}
             />
             <ProjectsData
               type={"Featured Project"}
-              title={"pdf Download Application"}
+              title={"Learning Management System (LMS)"}
               summary={
-                "A feature-rich Crypto Screener App using html, Tailwind CSS, javascript and owl carosel. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                "Through this website, a user will be able to purchase courses, watch course videos, ask questions, receive answers, and leave comments.It is developed using React.js, Next.js, React Query, Express.js, and MongoDB."
               }
-              img={img1}
-              link={"https://pdf-download.vercel.app"}
+              img={project3}
+              link={"https://lms-client-orpin.vercel.app"}
               github={"#"}
             />
 
@@ -159,7 +157,7 @@ const Projects = () => {
               github={"#"}
             />
 
-            <ProjectsData
+            {/* <ProjectsData
               type={"Featured Project"}
               title={"travel agency Application"}
               summary={
@@ -168,7 +166,7 @@ const Projects = () => {
               img={img3}
               link={"https://travel-agency-web-app-react.vercel.app/"}
               github={"#"}
-            />
+            /> */}
 
             <ProjectsData
               type={"Featured Project"}
@@ -181,7 +179,7 @@ const Projects = () => {
               github={"#"}
             />
 
-            <ProjectsData
+            {/* <ProjectsData
               type={"Featured Project"}
               title={"food Delevary ecommerce Application"}
               summary={
@@ -190,7 +188,7 @@ const Projects = () => {
               img={img5}
               link={"https://food-app-firebase.vercel.app"}
               github={"#"}
-            />
+            /> */}
             <ProjectsData
               type={"Featured Project"}
               title={"youtub-clone Application"}
