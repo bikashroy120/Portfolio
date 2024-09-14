@@ -5,8 +5,8 @@ import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } fr
 
 const Footer = () => {
   return (
-    <div className=' border-t-4 border-dark dark:border-light py-8'>
-        <Layout className='!py-0'>
+    <div className=' border-t-4 border-dark flex items-center justify-center dark:border-light py-8'>
+        <Layout className=''>
             <div className='flex items-center flex-col gap-3 md:flex-row justify-between w-full h-auto dark:text-light'>
                 <h2 className=' text-xl'>{new Date().getFullYear()} &copy; All Right Reserved</h2>
                 <nav className='flex items-center'>

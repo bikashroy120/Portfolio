@@ -75,11 +75,11 @@ const About = () => {
 
                 <div className='col-span-8 w-full lg:col-span-2 flex lg:flex-col justify-between items-end order-3'>
                     <div className='flex flex-col items-end justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={10}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Satisfied Client</h2>
                     </div>
                     <div className='flex flex-col items-end justify-center'>
-                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={9}/>+</span>
+                      <span className=' text-3xl sm:text-4xl lg:text-7xl font-bold inline-block'><AnimitedNumber value={10}/>+</span>
                       <h2 className='sm:text-xl text-base font-medium text-dark/75 dark:text-light'>Projects Completed</h2>
                     </div>
                     <div className='flex flex-col items-end justify-center'>
